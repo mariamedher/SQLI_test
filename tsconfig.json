@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", // Updated JS target to ES2022 (modern features)
+    "module": "CommonJS", //compile to CommonJS for Node.js
+    "strict": true, //stricter TS rules
+    "esModuleInterop": true, //CommonJS compatibility
+    "skipLibCheck": true, //skip type checking in module declarations
+    "types": ["node"], //tell TS to include Node.js types
+    "outDir": "dist" //output directory for compiled files
+  },
+  "include": ["tests/**/*.ts"] //just complile TS files in src
+}
