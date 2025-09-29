@@ -1,0 +1,76 @@
+Running 4 tests using 2 workers
+[chromium
+] › tests/restpetstore.spec.ts: 80: 7 › Petstore user flow › Read user
+Get user Status: 200 OK
+Get user: {
+    "id": 1759150166124,
+    "username": "maria_1759150166124",
+    "firstName": "Maria",
+    "lastName": "Mediavilla",
+    "email": "mariamediavilla@example.com",
+    "password": "pw",
+    "phone": "3456781234",
+    "userStatus": 1
+}
+[chromium
+] › tests/restpetstore.spec.ts: 100: 5 › Get sold pets
+Sold pets: [
+    {
+        "id": 77777,
+        "name": "Kitty"
+    },
+    {
+        "id": 12
+    },
+    {
+        "id": 876,
+        "name": "Toos"
+    },
+    {
+        "id": 1122334455,
+        "name": "UpdatedBuddy"
+    },
+    {
+        "id": 59384,
+        "name": "Jan"
+    },
+    {
+        "id": 9223372036854760000,
+        "name": "Rex-qwdkfx5h"
+    },
+    {
+        "id": 148549,
+        "name": "doggie"
+    },
+    {
+        "id": 981749,
+        "name": "doggie"
+    },
+    {
+        "id": 9223372036854759000,
+        "name": "cat"
+    },
+    {
+        "id": 3213213123123123,
+        "name": "kitty"
+    }
+]
+Counts by name: {
+    "Kitty": 1,
+    "undefined": 1,
+    "Toos": 1,
+    "UpdatedBuddy": 1,
+    "Jan": 1,
+    "Rex-qwdkfx5h": 1,
+    "doggie": 2,
+    "cat": 1,
+    "kitty": 1
+}
+[chromium
+] › tests/webautomationUI.spec.ts: 7: 5 › searches Google for "automation"
+Found "earliest" mention. Context: to keep accurate track of time. In Ptolemaic Egypt, about 270 BC, Ctesibius described a float regulator for a water clock, a device not unlike the ball and cock in a modern flush toilet. This was the earliest feedback-controlled mechanism.[
+    13
+] The appearance of the mechanical clock in the 14th century made the water clock and its feedback control system obsolete.
+Date matches found near "earliest": 270 BC
+Taking screenshot...
+  4 passed (23.7s)
